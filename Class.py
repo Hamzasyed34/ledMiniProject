@@ -184,24 +184,36 @@ def mainStoryContiniue():
     "As you may know, the internet is full of unimaginable things that majority of humans will not have pleasure in viewing therefore the fact that he did not have access to all this information and data is a major positive. "+
     "Due to him not being able to view explicit content meant that he could not influence and fill the brains of the people around him with negative thoughts such as violence. This is very important because if the E.C-chip had not been planted in the AI then he could have caused unimaginable pain and distress. ")
     print("")
+    userEnter = input("press enter to continue the story")
+    print("")
 
-print("Few years later after John’s death...")
-print("")
+    print("Few years later after John’s death...")
+    print("")
+    userEnter = input("press enter to continue the story")
+    print("")
 
-input("press enter to continiue:")
-print("")
+    input("press enter to continiue:")
+    print("")
+    userEnter = input("press enter to continue the story")
+    print("")
 
-print("the fight over the E.C chip was in some ways like arguments about how violent video games are these days. "+
+    print("the fight over the E.C chip was in some ways like arguments about how violent video games are these days. "+
     "It involved lots of politicians grandstanding about needing to 'protect the children' from the dangerous effects of seeing violence on TV." +
     "These activities have led to a phenomenon known as the paradox, also known as an antinomy, a statement that contrary to one’s expectation.")
+    userEnter = input("press enter to continue the story")
+    print("")
 
-input("press enter to continiue:")
-print("")
+    input("press enter to continiue:")
+    print("")
+    userEnter = input("press enter to continue the story")
+    print("")
 
-print("Chip malfunction!")
-print("")
+    print("Chip malfunction!")
+    print("")
+    userEnter = input("press enter to continue the story")
+    print("")
 
-print("One day the E.C chip malfunctioned, allowing Timothy to think and react on his own, which allowed Timothy judge anything on his own, "+
+    print("One day the E.C chip malfunctioned, allowing Timothy to think and react on his own, which allowed Timothy judge anything on his own, "+
     "leading him to take his own decisions, meaning that Timothy had to decide what is bad and good on his own which could have been very dangerous "+
     "for someone who has never been able to distinguish good and bad in the world on his own before that day, as his decision could affect entire world, "+
     "if he would have chosen the wrong side then would have ended up in the wrong hands then the entire world could have been in danger. "+
@@ -209,12 +221,13 @@ print("One day the E.C chip malfunctioned, allowing Timothy to think and react o
     "Timothy choosing the right side will help the humans reach goals that human could never believe that are possible to achieve. Even though world wide web can generate a lot of propaganda campaigns and fake news content, "+
     "but with Timothy’s help we can battle against fake information to prevent wrong people sharing false information, with the help of Artificial intelligence we can verify the truth of each article, Since the amount of content generated daily is too much for humans to effectively monitor, "+
     "Timothy advance AI algorithm offers a solution that makes identifying fake information possible. Even though the algorithms are only as good as the input, they receive to learn from, sing A.I. in the fight over fake news is a step in the right direction and this could help humans identify real and fake facts to avoid spread of fake information and prevent unnecessary violent strikes. ")
-print("")
+    print("")
+    userEnter = input("press enter to continue the story")
+    print("")
+    userEnter = input("press enter to continue the story")
+    print("")
 
-input("press enter to continiue:")
-print("")
-
-print("After Timothy decided to help humans with this process, "+
+    print("After Timothy decided to help humans with this process, "+
     "he became the main source of verifying multiple news outlets and "+
     "became the first AI that can successfully differentiate fake news from fact proven ones. "+
     "As time goes by more advanced versions have been developed but "+
@@ -226,6 +239,5 @@ print("After Timothy decided to help humans with this process, "+
     "Timothy monitored a couple of stories written by some fact-checking organizations and over a thousand posts that mention them on social media. "+
     "On looking into all these, the results suggest that curbing social bots may be an effective strategy for mitigating the spread of online misinformation. "+
     "evertheless, the spread of fake news is a legitimate and important source of public concern. Understanding how its spreads is the first stage in tackling it. ")
-
-print("")
-print("The end...")
+    print("")
+    print("*** The end ***") ##add exit function ###
