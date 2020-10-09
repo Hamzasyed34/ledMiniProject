@@ -33,6 +33,12 @@ def welcomeToTheStory():
 
 welcomeToTheStory()
 
+def timothyChangingBehaviour():
+    ''' This variable contains the information of timothy strange behaviour'''
+    unexpectedBehaviour = "In the beginning when John was still in the process of making, Timothy was giving unexpected results, John found these unusual results in the tests that were used to train Timothy. He found out that even when Timothy was on its early stage it kept trying to get new information beyond its reach. What amazed John was that it was trying to break the engine in which it was training. First, he thought it is expected from something that learns itself to be more curious but at the same time he was a bit worried about if it gets out of hand or manages to access restricted zones. At first Timothy’s words were predictable and simple but as time passed it became more complicated and uncertain."
+
+    return unexpectedBehaviour
+
 #The user will chose if to skip the reason of timothy's creation or not
 userInputReason = input("Type yes to read the reason behind Timothy's creation, type no to skip the reason: ")
 print("")
@@ -44,19 +50,19 @@ def reasonForCreatingTheAI():
     return reason
 #End of the function
 
-reasonForCreatingTheAI()
-
-unexpectedBehaviour = "In the beginning when John was still in the process of making, Timothy was giving unexpected results, John found these unusual results in the tests that were used to train Timothy. He found out that even when Timothy was on its early stage it kept trying to get new information beyond its reach. What amazed John was that it was trying to break the engine in which it was training. First, he thought it is expected from something that learns itself to be more curious but at the same time he was a bit worried about if it gets out of hand or manages to access restricted zones. At first Timothy’s words were predictable and simple but as time passed it became more complicated and uncertain."
-
-#if the user inputs yes then this code will run
+'''if the user input for variable 'userInputReason' is 'yes' then this code will call the function called 'reasonForCreatingTheAI' '''
 if userInputReason == 'yes':
     print(reasonForCreatingTheAI())
     print("")
+    userEnter = input("press enter to continue the story")
+    print("")
+    print(timothyChangingBehaviour())
+    print("")
 #end
-
-#if the user inputs no then this code will run
-else:
-    print(unexpectedBehaviour)
+    '''if the user input for variable 'userInputReason' is 'no' then the code will skip the reasonForCreatingAI and will print the variable 'unexpectedBehaviour'
+    however if the user inputs yes then timothuBehaviour function will be printed after resonForCreatingAI '''
+elif userInputReason == 'no':
+    print(timothyChangingBehaviour())
     print("")
 #end
 
