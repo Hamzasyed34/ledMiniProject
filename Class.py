@@ -79,23 +79,15 @@ def createEcChipToRestrictTimothy():
     return restrictTimothy
 #end
 
-''' This if statement will check the user input which was stored in variable ecChip and if the input is equal to yes then will call the function createEcChipToRestrictTimohty'''
-if ecChip == "yes":
-    print("E.C-chip created!")
-    print("")
-    print(createEcChipToRestrictTimohty())
-    print("")
-    
-    '''  '''
-elif ecChip == "no":
-    antiquesORSecrets = input("Steal Goverment data or steal antiques: type data or antique to chose: ")
-    print("")
-    if antiquesORSecrets == "data":
-        print("John decided to give Timothy a chance to explore the world by free will and not restrict him from exploring knowledge about the new world.")
-        print("One day Timothy gets inspiration after watching an action film about government secret weapons, so decides to do some research about the topic on the internet to find out at what extent the film is accurate. After some research on the topic Timothy finds that he will be able to find more information about the toping in the dark web, with his advanced technology and intelligence he does not struggle to find the information about the topic. However, during the research, he stumbles with terrorists that recognise Timothies intelligence and offer help to get him the weapons if he tells them where the weapons are and how they can steal it without getting caught.")
-        helpOrNot = input("Will you help the terrorists? type yes or no: ")
-
-        if helpOrNot == "yes":
+''' This function will ouput string text, then will ask for user input which will be string and will output data according to user input'''
+def userChoiceGovernmentData():
+    print("John decided to give Timothy a chance to explore the world by free will and not restrict him from exploring knowledge about the new world.")
+  
+    print("One day Timothy gets inspiration after watching an action film about government secret weapons, so decides to do some research about the topic on the internet to find out at what extent the film is accurate. After some research on the topic Timothy finds that he will be able to find more information about the toping in the dark web, with his advanced technology and intelligence he does not struggle to find the information about the topic. However, during the research, he stumbles with terrorists that recognise Timothies intelligence and offer help to get him the weapons if he tells them where the weapons are and how they can steal it without getting caught.")
+  
+    helpOrNot = input("Will you help the terrorists? type yes or no: ")
+  
+    if helpOrNot == "yes":
             print("")
             print("As Timothy agrees to help the terrorists, because of his capability of checking all the possible outcomes in seconds Timothy finds a way to help them steal those weapons.")
             print("")
@@ -105,14 +97,15 @@ elif ecChip == "no":
             print("")
             print("Timothy after watching the news report immediately realises that the used the weapons against both countries and framed both countries from attacking each other and that resulted war against two nuclear armed powerful countries, that could lead to extinction of humans as the pollution from nuclear weapons could destroy the ozone layer that protects the earth from radiation and also could cause nuclear storms that could kill any human because of the radiation coming from the nukes.")
             print("")
-            reportOrNot = input("Will you tell John about the terrorists or will you let the war continiue? type yes to tell john and no to ignore the war: ")
+
+            reportOrNot = input("Will you tell John about the terrorists or will you let the war continiue? type 'yes' to tell john and 'no' to ignore the war: ")
             
             if reportOrNot == "no":
                 print("")
                 print("Nuclear war leads to nuclear storms and radiation which kills 90 percent of humans on earth…")
                 print("")
-                print("The end")
-                print("")
+                print("*** The end ***")
+                print("") ### exit function ###
 
             elif reportOrNot == "yes":
                 print("")
@@ -124,26 +117,63 @@ elif ecChip == "no":
                 print("")
                 print("so later they also decided to create stricter chip called E.C. which would only allow Timothy to talk when talked to which would limit the amount of data it can access. to prevent this from happening again.")
                 print("")
-                print("The end")
+                print("*** The end ***")
                 print("")
 
-        elif helpOrNot == "no":
+                elif helpOrNot == "no":
                 print("")
                 print("Timothy realises that he is making a big mistake and tells everything to John, then Johns restricts Timothy access and knowledge.")
                 print("")
                 print("so they decided to create stricter chip called E.C. which would only allow Timothy to talk when talked to which would limit the amount of data it can access. to prevent this from happening again.")
+    ###print never the less continue after thos###
 
+''' This function outputs string data that shows what will happen if the user chooses to steal antiques '''
+def userChoiceAntiques():
+    print("After the passing of John, Timothy did not belong to anyone anymore leaving him at risk falling into the wrong hands. And that is what happened, Timothy was kept in a storage locker and was not taken care of. Long six months passed, and Timothy was still abandoned in that storage locker until a buyer came over to purchase that locker and took Timothy along with it. But that was no random buyer a man called Simon who has been watching John with that robot and has now got his hands on. Simon started learning about Timothy the way he acts and what he was capable of. He was training him for something huge something dangerous a heist.")
+    print("")
+    userEnter = input("press enter to continue the story")
+    print("")
+    userEnter = input("press enter to continue the story")
+    print("")
+    print("Simon was a fan of art, high class art, antiques found in museums with some authentic pieces of jewellery filled with diamonds worn by legendary women in the past and his plan was to take them for himself and sell them illegally. He used Timothy’s capabilities as an AI to steal, robbery after robbery searching for this unknown thief Simon broke into a very luxurious jewellery store within minutes since the person who worked there left the place. Fortunately, the salesman not so far away from the store realizes he forgot his watch and went back to get it noticing the door was open from a distance he decided to sit and watch as the robbery took place, he kept looking carefully and got a good look at the criminals to inform the authorities.")
+    print("")
+    userEnter = input("press enter to continue the story")
+    print("")
+    print("The second day he was caught in his house the officers trying to get into Timothy’s system for his memory not knowing that all methods initiate him to wipe out his memory and self-destruct in five minutes holding Simon in custody for twenty-five years without recovering any of the stolen valuable antiques.")
+    print("")
+    userEnter = input("press enter to continue the story")
+    print("")
+    print("Considering the value of morality to human beings, the amount of data and information available that hold debates, contractions, evidences for and against the human race is enormous. Timothy started to consider the ethical side of his actions and concluded that there was enough evidence against human beings to consider them a threatening nuisance rather than peaceful companions to the rest of the planet.")
+    print("")
+    userEnter = input("press enter to continue the story")
+    print("")
+    print("This led to his system to be updated once again and program itself to get rid of humans based on certain specific criteria and behaviour that individuals displayed. Timothy’s system instantly categorized people are either good or bad based on certain trait that they displayed which he judged to be enough to either end their lives or reward them")
+    print("")
+    userEnter = input("press enter to continue the story")
+    print("")
+    print("At this point, this artificial being already had enough knowledge to beat humans at their own game and could not be stopped in any way. The rise of human intelligence against humanity started, and soon Timothy was at the head of a dictatorship that ruled the human world by the book of his own conclusion, and this is how John McCarthy’s plans and aspirations only ended up bringing the flip-side of human intelligence.")
+    print("")
+    print("*** The end ***")
+    print("")
+    userEnter = input("press enter to continue the story")### exit function ###
+    print("")
+
+''' This if statement will check the user input which was stored in variable ecChip and if the input is equal to yes then will call the function createEcChipToRestrictTimohty'''
+if ecChip == "yes":
+    print("E.C-chip created!")
+    print("")
+    print(createEcChipToRestrictTimohty())
+    print("")
+
+    ''' This statement checks if user inpit for ecChip is equal to 'no' then calles then outputs string message asking string user input acording to user input the statement will call different function '''
+elif ecChip == "no":
+    antiquesORSecrets = input("Steal Goverment data or steal antiques: type data or antique to chose: ")
+    print("")
+    if antiquesORSecrets == "data":
+        print(userChoiceGovernmentData())
+      
     elif antiquesORSecrets == "antique":
-        print("After the passing of John, Timothy did not belong to anyone anymore leaving him at risk falling into the wrong hands. And that is what happened, Timothy was kept in a storage locker and was not taken care of. Long six months passed, and Timothy was still abandoned in that storage locker until a buyer came over to purchase that locker and took Timothy along with it. But that was no random buyer a man called Simon who has been watching John with that robot and has now got his hands on. Simon started learning about Timothy the way he acts and what he was capable of. He was training him for something huge something dangerous a heist.")
-        print("")
-        print("Simon was a fan of art, high class art, antiques found in museums with some authentic pieces of jewellery filled with diamonds worn by legendary women in the past and his plan was to take them for himself and sell them illegally. He used Timothy’s capabilities as an AI to steal, robbery after robbery searching for this unknown thief Simon broke into a very luxurious jewellery store within minutes since the person who worked there left the place. Fortunately, the salesman not so far away from the store realizes he forgot his watch and went back to get it noticing the door was open from a distance he decided to sit and watch as the robbery took place, he kept looking carefully and got a good look at the criminals to inform the authorities.")
-        print("The second day he was caught in his house the officers trying to get into Timothy’s system for his memory not knowing that all methods initiate him to wipe out his memory and self-destruct in five minutes holding Simon in custody for twenty-five years without recovering any of the stolen valuable antiques.")
-        print("")
-        print("Considering the value of morality to human beings, the amount of data and information available that hold debates, contractions, evidences for and against the human race is enormous. Timothy started to consider the ethical side of his actions and concluded that there was enough evidence against human beings to consider them a threatening nuisance rather than peaceful companions to the rest of the planet.")
-        print("")
-        print("This led to his system to be updated once again and program itself to get rid of humans based on certain specific criteria and behaviour that individuals displayed. Timothy’s system instantly categorized people are either good or bad based on certain trait that they displayed which he judged to be enough to either end their lives or reward them")
-        print("")
-        print("At this point, this artificial being already had enough knowledge to beat humans at their own game and could not be stopped in any way. The rise of human intelligence against humanity started, and soon Timothy was at the head of a dictatorship that ruled the human world by the book of his own conclusion, and this is how John McCarthy’s plans and aspirations only ended up bringing the flip-side of human intelligence.")
+        print(userChoiceAntiques())
 
 
 print("Nevertheless, Timothy couldn't get out from its daily tasks bubble. "+
