@@ -1,15 +1,15 @@
 
-# testing if pull works
-print ("Welcom to Timothy's story")
-print("")
-print ("In this story you will be able to experiance the story from different angles")
-print("")
+def welcomeToTheGame(start):
+    print ("Welcom to Timothy's story")
+    print("")
+    print ("In this story you will be able to experiance the story from different angles")
+    print("")
 
-print ("each angle could have different endings depending on which path you chose.")
-print("")
-
-userEnter = input("press enter to begin the story")
-print("")
+    print ("each angle could have different endings depending on which path you chose.")
+    print("")
+    userEnter = input("press enter to begin the story")
+    print("")
+welcomeToTheGame()
 
 print ("In a developing world that relies on technology," +
 "The Logic Theorist was the most revolutionary artificial intelligence development tool which gave the dedicated and talented man John McCarthy his title as the father of AI." +
