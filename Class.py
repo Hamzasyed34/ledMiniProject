@@ -1,6 +1,6 @@
 
 ''' This function will print the welcome message to the user and will be asked to input the enter key to continue'''
-def welcomeToTheGame(start):
+def welcomeToTheGame():
     print ("Welcom to Timothy's story")
     print("")
     print ("In this story you will be able to experiance the story from different angles")
@@ -8,13 +8,12 @@ def welcomeToTheGame(start):
 
     print ("each angle could have different endings depending on which path you chose.")
     print("")
-    userEnter = input("press enter to begin the story")
-    print("")
+    
 #End of the function
 welcomeToTheGame()
 
 ''' this function prints the beginning of the story, user will have to input string "yes" or "no" to chose if they want the details of the story '''
-def welcomeToTheStory(beginning):
+def welcomeToTheStory():
     print ("In a developing world that relies on technology," +
     "The Logic Theorist was the most revolutionary artificial intelligence development tool which gave the dedicated and talented man John McCarthy his title as the father of AI." +
     "John’s genius relied on his incredible ability to gather useful information from a variety of resources that were used in the past to create the very first prototype of a human-like machine.")
@@ -32,18 +31,26 @@ def welcomeToTheStory(beginning):
     print("")
 #End of the function
 
+welcomeToTheStory()
+
 #The user will chose if to skip the reason of timothy's creation or not
 userInputReason = input("Type yes to read the reason behind Timothy's creation, type no to skip the reason: ")
 print("")
 
-reason = "Johns main reason for creating such piece of machinery was otherwise a lot simpler than the amount of code lines and endless fails until the machine taught itself how to act alive. John just wants to have someone to be there for him, someone to talk and in order fill his emptiness and relieve his pain within after losing his only child. that is why he needed someone relief that pain, someone who could comfort him and someone who fill the whole of emptiness that was left after the death of his child. As a result he created a perfect friend who would help him to release the pain he is feeling, he named his only hope of recovering from the pain after his child, Timothy."
-print("")
+''' This function will print the reason John created Timothy '''
+def reasonForCreatingTheAI():
+    reason = "Johns main reason for creating such piece of machinery was otherwise a lot simpler than the amount of code lines and endless fails until the machine taught itself how to act alive. John just wants to have someone to be there for him, someone to talk and in order fill his emptiness and relieve his pain within after losing his only child. that is why he needed someone relief that pain, someone who could comfort him and someone who fill the whole of emptiness that was left after the death of his child. As a result he created a perfect friend who would help him to release the pain he is feeling, he named his only hope of recovering from the pain after his child, Timothy."
+    print("")
+    return reason
+#End of the function
+
+reasonForCreatingTheAI()
 
 unexpectedBehaviour = "In the beginning when John was still in the process of making, Timothy was giving unexpected results, John found these unusual results in the tests that were used to train Timothy. He found out that even when Timothy was on its early stage it kept trying to get new information beyond its reach. What amazed John was that it was trying to break the engine in which it was training. First, he thought it is expected from something that learns itself to be more curious but at the same time he was a bit worried about if it gets out of hand or manages to access restricted zones. At first Timothy’s words were predictable and simple but as time passed it became more complicated and uncertain."
 
 #if the user inputs yes then this code will run
 if userInputReason == 'yes':
-    print(reason)
+    print(reasonForCreatingTheAI())
     print("")
 #end
 
