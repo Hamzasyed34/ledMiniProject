@@ -175,14 +175,15 @@ elif ecChip == "no":
     elif antiquesORSecrets == "antique":
         print(userChoiceAntiques())
 
+def mainStoryContiniue():
 
-print("Nevertheless, Timothy couldn't get out from its daily tasks bubble. "+
-"Everyone said that John was a very smart guy, he predicted that the robot will be continuously up to date even after his death, making him decide to implant the E.C.-chip, standing for an explicit content chip."+
-"Its main goal is to allow the censorship of violent or inappropriate content based on the internet community's approach so that Timothy would not learn how to replicate such behaviour. "+
-"This was crucial due to the influence the AI had on everyone." +
-"As you may know, the internet is full of unimaginable things that majority of humans will not have pleasure in viewing therefore the fact that he did not have access to all this information and data is a major positive. "+
-"Due to him not being able to view explicit content meant that he could not influence and fill the brains of the people around him with negative thoughts such as violence. This is very important because if the E.C-chip had not been planted in the AI then he could have caused unimaginable pain and distress. ")
-print("")
+    print("Nevertheless, Timothy couldn't get out from its daily tasks bubble. "+
+    "Everyone said that John was a very smart guy, he predicted that the robot will be continuously up to date even after his death, making him decide to implant the E.C.-chip, standing for an explicit content chip."+
+    "Its main goal is to allow the censorship of violent or inappropriate content based on the internet community's approach so that Timothy would not learn how to replicate such behaviour. "+
+    "This was crucial due to the influence the AI had on everyone." +
+    "As you may know, the internet is full of unimaginable things that majority of humans will not have pleasure in viewing therefore the fact that he did not have access to all this information and data is a major positive. "+
+    "Due to him not being able to view explicit content meant that he could not influence and fill the brains of the people around him with negative thoughts such as violence. This is very important because if the E.C-chip had not been planted in the AI then he could have caused unimaginable pain and distress. ")
+    print("")
 
 print("Few years later after John’s death...")
 print("")
