@@ -50,7 +50,8 @@ def reasonForCreatingTheAI():
     return reason
 #End of the function
 
-'''if the user input for variable 'userInputReason' is 'yes' then this code will call the function called 'reasonForCreatingTheAI' '''
+'''if the user input for variable 'userInputReason' is 'yes' then this code will call the function called 'reasonForCreatingTheAI'
+and then will print the fuunction called timothyChangingBehaviour '''
 if userInputReason == 'yes':
     print(reasonForCreatingTheAI())
     print("")
@@ -58,7 +59,7 @@ if userInputReason == 'yes':
     print("")
     print(timothyChangingBehaviour())
     print("")
-#end
+
     '''if the user input for variable 'userInputReason' is 'no' then the code will skip the reasonForCreatingAI and will print the variable 'unexpectedBehaviour'
     however if the user inputs yes then timothuBehaviour function will be printed after resonForCreatingAI '''
 elif userInputReason == 'no':
@@ -66,17 +67,26 @@ elif userInputReason == 'no':
     print("")
 #end
 
-#asking user to stop timothy or not
+'''this variable will output a messeage asking user to input string, and will save the input to the variable'''
 ecChip = input("do you want to restrict Timothy's access? type yes if want to restrict access otherwise type no:")
 print("")
+#end
 
-restrictTimothy = "As much as John was eager to have someone to talk or have a friend, \he was also being cautious so he created stricter chip called E.C. which would only allow Timothy to talk when talked to which would limit the amount of data it can access. \It was very good as Timothy seemed to be less aggressive about data and only ask general questions. \John was worried that if it had asked him if he does not trust Timothy which would be difficult to answerer as John was creating Timothy specifically to simulate as human behaviour so in case if it did ask him it might have created distrust between him and Timothy thus erasing the real reason, he created AI. \After couple of months Timothy was starting to look like what john had imagined as AI who would talk to him as a friend."
-print("")
+''' This function contains a variable which contains string data type, data explains what happens when user decides to restrict timothy'''
+def createEcChipToRestrictTimothy():
+    restrictTimothy = "As much as John was eager to have someone to talk or have a friend, he was also being cautious so he created stricter chip called E.C. which would only allow Timothy to talk when talked to which would limit the amount of data it can access. It was very good as Timothy seemed to be less aggressive about data and only ask general questions. John was worried that if it had asked him if he does not trust Timothy which would be difficult to answerer as John was creating Timothy specifically to simulate as human behaviour so in case if it did ask him it might have created distrust between him and Timothy thus erasing the real reason, he created AI. After couple of months Timothy was starting to look like what john had imagined as AI who would talk to him as a friend."
+    print("")
+    return restrictTimothy
+#end
 
+''' This if statement will check the user input which was stored in variable ecChip and if the input is equal to yes then will call the function createEcChipToRestrictTimohty'''
 if ecChip == "yes":
     print("E.C-chip created!")
-    print(restrictTimothy)
-
+    print("")
+    print(createEcChipToRestrictTimohty())
+    print("")
+    
+    '''  '''
 elif ecChip == "no":
     antiquesORSecrets = input("Steal Goverment data or steal antiques: type data or antique to chose: ")
     print("")
