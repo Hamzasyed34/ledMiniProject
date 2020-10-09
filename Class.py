@@ -1,4 +1,5 @@
 
+''' This function will print the welcome message to the user and will be asked to input the enter key to continue'''
 def welcomeToTheGame(start):
     print ("Welcom to Timothy's story")
     print("")
@@ -9,26 +10,30 @@ def welcomeToTheGame(start):
     print("")
     userEnter = input("press enter to begin the story")
     print("")
+#End of the function
 welcomeToTheGame()
 
-print ("In a developing world that relies on technology," +
-"The Logic Theorist was the most revolutionary artificial intelligence development tool which gave the dedicated and talented man John McCarthy his title as the father of AI." +
-"John’s genius relied on his incredible ability to gather useful information from a variety of resources that were used in the past to create the very first prototype of a human-like machine.")
-print("")
+''' this function prints the beginning of the story, user will have to input string "yes" or "no" to chose if they want the details of the story '''
+def welcomeToTheStory(beginning):
+    print ("In a developing world that relies on technology," +
+    "The Logic Theorist was the most revolutionary artificial intelligence development tool which gave the dedicated and talented man John McCarthy his title as the father of AI." +
+    "John’s genius relied on his incredible ability to gather useful information from a variety of resources that were used in the past to create the very first prototype of a human-like machine.")
+    print("")
 
-userEnter = input("press enter to begin the story")
-print("")
+    userEnter = input("press enter to continiue the story")
+    print("")
 
-print("John managed to successfully create an AI that could serve as the best human like machine to have as a companion that could help solve any problem," +
-"zgive advice, or go out and do your chores for the day." +
-"He could do many different tasks that humans would do; however, he could do it much more efficiently and accurately." +
-"For example, he was massively loved due to the amount of assistance he would provide whether it was just advice or helping someone do a specific task." +
-"Other than the soul, John’s AI was just like any other human, but exceptionally intelligent." +
-"John had a robot so smart that people would envy him for his knowledge, strength and invulnerabilities compared to humans.  ")
-print("")
+    print("John managed to successfully create an AI that could serve as the best human like machine to have as a companion that could help solve any problem," +
+    "give advice, or go out and do your chores for the day." +
+    "He could do many different tasks that humans would do; however, he could do it much more efficiently and accurately." +
+    "For example, he was massively loved due to the amount of assistance he would provide whether it was just advice or helping someone do a specific task." +
+    "Other than the soul, John’s AI was just like any other human, but exceptionally intelligent." +
+    "John had a robot so smart that people would envy him for his knowledge, strength and invulnerabilities compared to humans.  ")
+    print("")
+#End of the function
 
-#her user will chose if to skip the reason of timothy's creation or not
-userInputReason = input("Type yes reason behind Timothy's creation, type no to skip the reason: ")
+#The user will chose if to skip the reason of timothy's creation or not
+userInputReason = input("Type yes to read the reason behind Timothy's creation, type no to skip the reason: ")
 print("")
 
 reason = "Johns main reason for creating such piece of machinery was otherwise a lot simpler than the amount of code lines and endless fails until the machine taught itself how to act alive. John just wants to have someone to be there for him, someone to talk and in order fill his emptiness and relieve his pain within after losing his only child. that is why he needed someone relief that pain, someone who could comfort him and someone who fill the whole of emptiness that was left after the death of his child. As a result he created a perfect friend who would help him to release the pain he is feeling, he named his only hope of recovering from the pain after his child, Timothy."
